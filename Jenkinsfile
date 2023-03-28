@@ -7,7 +7,7 @@ pipeline {
             steps {
                 sh 'node --version'
             }
-        },
+        }
          stage('Printing') {
             steps {
 echo "hello World"
