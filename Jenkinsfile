@@ -8,10 +8,5 @@ pipeline {
                 sh 'node --version'
             }
         }
-        state('Prining') {
-            steps {
-                echo 'Hello World'
-            }
-        }
     }
 }
